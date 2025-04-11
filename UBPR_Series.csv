@@ -1,0 +1,17 @@
+code,name,form,df_name
+UBPRE630,Return on Equity,FFIEC CDR UBPR Ratios Capital Analysis-a,return_on_equity
+UBPR7204,Tier 1 Leverage Capital Ratio,FFIEC CDR UBPR Ratios Concept Not In Presentation,tier_1_leverage_capital_ratio
+UBPR7206,Tier 1 Risk-Based Capital Ratio,FFIEC CDR UBPR Ratios Concept Not In Presentation,tier_1_risk_based_capital_ratio
+UBPR7205,Total Risk-Based Capital Ratio,FFIEC CDR UBPR Ratios Concept Not In Presentation,total_risk_based_capital_ratio
+UBPRE595,Brokered Deposits to Total Deposits,FFIEC CDR UBPR Ratios Liquidity and Funding,brokered_deposits_to_total_deposits
+UBPRK447,Net Non-Core Funding Dependence,FFIEC CDR UBPR Ratios Liquidity and Funding,net_non_core_funding_dependence
+UBPRE591,Core Deposits as % of Total Assets,FFIEC CDR UBPR Ratios Liquidity and Funding,core_deposits_as_of_total_assets
+UBPRE589,Short Term Investments as % of Total Assets,FFIEC CDR UBPR Ratios Liquidity and Inv Portfolio,short_term_investments_as_of_total_assets
+UBPRE415,1-4 Family Residential Loans,FFIEC CDR UBPR Ratios Allowance and Loan Mix-b,1_4_family_residential_loans
+UBPRE424,Loans to Individuals,FFIEC CDR UBPR Ratios Allowance and Loan Mix-b,loans_to_individuals
+UBPRE423,Commercial & Industrial Loans,FFIEC CDR UBPR Ratios Allowance and Loan Mix-b,commercial_industrial_loans
+UBPRE005,Non-Interest Expense / Average Assets,FFIEC CDR UBPR Ratios Executive Summary Report,non_interest_expense_average_assets
+UBPRE088,Efficiency Ratio,FFIEC CDR UBPR Ratios Noninterest Income and Expenses,efficiency_ratio
+UBPRE013,Return on Average Assets,FFIEC CDR UBPR Ratios Executive Summary Report,return_on_average_assets
+UBPRE018,Net Interest Margin,FFIEC CDR UBPR Ratios Summary Ratios,net_interest_margin
+UBPRE004,Noninterest Income / Average Assets,FFIEC CDR UBPR Ratios Executive Summary Report,noninterest_income_average_assets
