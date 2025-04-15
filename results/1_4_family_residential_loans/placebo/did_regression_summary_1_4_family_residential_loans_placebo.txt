@@ -1,0 +1,31 @@
+                               PanelOLS Estimation Summary                                
+==========================================================================================
+Dep. Variable:     1_4_family_residential_loans   R-squared:                        0.0312
+Estimator:                             PanelOLS   R-squared (Between):             -0.0206
+No. Observations:                           522   R-squared (Within):               0.1001
+Date:                          Fri, Apr 11 2025   R-squared (Overall):             -0.0177
+Time:                                  11:01:38   Log-likelihood                   -1316.8
+Cov. Estimator:                       Clustered                                           
+                                                  F-statistic:                      15.281
+Entities:                                    18   P-value                           0.0001
+Avg Obs:                                 29.000   Distribution:                   F(1,475)
+Min Obs:                                 29.000                                           
+Max Obs:                                 29.000   F-statistic (robust):             1.5163
+                                                  P-value                           0.2188
+Time periods:                                29   Distribution:                   F(1,475)
+Avg Obs:                                 18.000                                           
+Min Obs:                                 18.000                                           
+Max Obs:                                 18.000                                           
+                                                                                          
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post    -2.6866     2.1818    -1.2314     0.2188     -6.9738      1.6006
+================================================================================
+
+F-test for Poolability: 143.92
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time

@@ -1,0 +1,31 @@
+                                 PanelOLS Estimation Summary                                 
+=============================================================================================
+Dep. Variable:     tier_1_risk_based_capital_ratio   R-squared:                        0.0840
+Estimator:                                PanelOLS   R-squared (Between):              0.0239
+No. Observations:                              522   R-squared (Within):              -0.0323
+Date:                             Fri, Apr 11 2025   R-squared (Overall):              0.0233
+Time:                                     10:57:57   Log-likelihood                    1572.2
+Cov. Estimator:                          Clustered                                           
+                                                     F-statistic:                      43.556
+Entities:                                       18   P-value                           0.0000
+Avg Obs:                                    29.000   Distribution:                   F(1,475)
+Min Obs:                                    29.000                                           
+Max Obs:                                    29.000   F-statistic (robust):             4.7882
+                                                     P-value                           0.0291
+Time periods:                                   29   Distribution:                   F(1,475)
+Avg Obs:                                    18.000                                           
+Min Obs:                                    18.000                                           
+Max Obs:                                    18.000                                           
+                                                                                             
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post     0.0179     0.0082     2.1882     0.0291      0.0018      0.0340
+================================================================================
+
+F-test for Poolability: 28.854
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time
