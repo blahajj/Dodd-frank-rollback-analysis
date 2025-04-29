@@ -1,0 +1,2 @@
+Causal Forest ATE: nan
+Double ML ATE: 0.11620543079286078

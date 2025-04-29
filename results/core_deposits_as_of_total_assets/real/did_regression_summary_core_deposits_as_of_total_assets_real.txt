@@ -1,0 +1,31 @@
+                                 PanelOLS Estimation Summary                                  
+==============================================================================================
+Dep. Variable:     core_deposits_as_of_total_assets   R-squared:                        0.0411
+Estimator:                                 PanelOLS   R-squared (Between):              0.0131
+No. Observations:                               522   R-squared (Within):               0.1078
+Date:                              Mon, Apr 28 2025   R-squared (Overall):              0.0136
+Time:                                      19:33:56   Log-likelihood                   -1480.7
+Cov. Estimator:                           Clustered                                           
+                                                      F-statistic:                      20.344
+Entities:                                        18   P-value                           0.0000
+Avg Obs:                                     29.000   Distribution:                   F(1,475)
+Min Obs:                                     29.000                                           
+Max Obs:                                     29.000   F-statistic (robust):             0.9396
+                                                      P-value                           0.3329
+Time periods:                                    29   Distribution:                   F(1,475)
+Avg Obs:                                     18.000                                           
+Min Obs:                                     18.000                                           
+Max Obs:                                     18.000                                           
+                                                                                              
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post     4.2434     4.3777     0.9693     0.3329     -4.3586      12.845
+================================================================================
+
+F-test for Poolability: 278.36
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time

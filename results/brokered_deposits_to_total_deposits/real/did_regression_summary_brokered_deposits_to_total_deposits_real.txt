@@ -1,0 +1,31 @@
+                                   PanelOLS Estimation Summary                                   
+=================================================================================================
+Dep. Variable:     brokered_deposits_to_total_deposits   R-squared:                        0.0681
+Estimator:                                    PanelOLS   R-squared (Between):             -0.0382
+No. Observations:                                  522   R-squared (Within):               0.1158
+Date:                                 Mon, Apr 28 2025   R-squared (Overall):             -0.0318
+Time:                                         19:33:20   Log-likelihood                   -1506.2
+Cov. Estimator:                              Clustered                                           
+                                                         F-statistic:                      34.708
+Entities:                                           18   P-value                           0.0000
+Avg Obs:                                        29.000   Distribution:                   F(1,475)
+Min Obs:                                        29.000                                           
+Max Obs:                                        29.000   F-statistic (robust):             1.5714
+                                                         P-value                           0.2106
+Time periods:                                       29   Distribution:                   F(1,475)
+Avg Obs:                                        18.000                                           
+Min Obs:                                        18.000                                           
+Max Obs:                                        18.000                                           
+                                                                                                 
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post    -5.8198     4.6426    -1.2536     0.2106     -14.942      3.3028
+================================================================================
+
+F-test for Poolability: 200.28
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time

@@ -1,0 +1,31 @@
+                                   PanelOLS Estimation Summary                                   
+=================================================================================================
+Dep. Variable:     non_interest_expense_average_assets   R-squared:                        0.0039
+Estimator:                                    PanelOLS   R-squared (Between):             -0.0039
+No. Observations:                                  522   R-squared (Within):              -0.0009
+Date:                                 Mon, Apr 28 2025   R-squared (Overall):             -0.0039
+Time:                                         19:35:25   Log-likelihood                   -121.84
+Cov. Estimator:                              Clustered                                           
+                                                         F-statistic:                      1.8836
+Entities:                                           18   P-value                           0.1706
+Avg Obs:                                        29.000   Distribution:                   F(1,475)
+Min Obs:                                        29.000                                           
+Max Obs:                                        29.000   F-statistic (robust):             0.1403
+                                                         P-value                           0.7081
+Time periods:                                       29   Distribution:                   F(1,475)
+Avg Obs:                                        18.000                                           
+Min Obs:                                        18.000                                           
+Max Obs:                                        18.000                                           
+                                                                                                 
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post    -0.0956     0.2552    -0.3746     0.7081     -0.5971      0.4059
+================================================================================
+
+F-test for Poolability: 373.68
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time

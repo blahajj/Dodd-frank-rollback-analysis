@@ -1,0 +1,31 @@
+                                 PanelOLS Estimation Summary                                 
+=============================================================================================
+Dep. Variable:     net_non_core_funding_dependence   R-squared:                        0.0176
+Estimator:                                PanelOLS   R-squared (Between):             -0.0306
+No. Observations:                              522   R-squared (Within):               0.0204
+Date:                             Mon, Apr 28 2025   R-squared (Overall):             -0.0264
+Time:                                     19:33:36   Log-likelihood                   -1830.9
+Cov. Estimator:                          Clustered                                           
+                                                     F-statistic:                      8.4972
+Entities:                                       18   P-value                           0.0037
+Avg Obs:                                    29.000   Distribution:                   F(1,475)
+Min Obs:                                    29.000                                           
+Max Obs:                                    29.000   F-statistic (robust):             1.3934
+                                                     P-value                           0.2384
+Time periods:                                   29   Distribution:                   F(1,475)
+Avg Obs:                                    18.000                                           
+Min Obs:                                    18.000                                           
+Max Obs:                                    18.000                                           
+                                                                                             
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+treated_post    -5.3648     4.5448    -1.1804     0.2384     -14.295      3.5656
+================================================================================
+
+F-test for Poolability: 67.821
+P-value: 0.0000
+Distribution: F(45,475)
+
+Included effects: Entity, Time
